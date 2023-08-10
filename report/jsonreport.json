@@ -1,0 +1,180 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To create new account",
+        "description": "",
+        "id": "to-validate-the-account-creation-of-fb-applicatiom;to-create-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2741890300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the browser and maximise the window",
+            "match": {
+              "location": "FBregistration.to_launch_the_browser_and_maximise_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1430904100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the url of fb application",
+            "match": {
+              "location": "FBregistration.to_launch_the_url_of_fb_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118701200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To click the create new account button",
+            "match": {
+              "location": "FBregistration.to_click_the_create_new_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5103878700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To pass firstname in firstname text box",
+            "match": {
+              "location": "FBregistration.to_pass_firstname_in_firstname_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firsrname1",
+                  "inmakes"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname2",
+                  "Tamil"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname3",
+                  "Selvan"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname4",
+                  "Manoj"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89355600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To pass secondname in secondname text box",
+            "match": {
+              "location": "FBregistration.to_pass_secondname_in_secondname_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100320400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "TO pass mobileno or email in email text box",
+            "match": {
+              "location": "FBregistration.to_pass_mobileno_or_email_in_email_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "password1",
+                  "password2",
+                  "password3"
+                ]
+              },
+              {
+                "cells": [
+                  "vptamilsel@gmail.com",
+                  "741258",
+                  "mohan@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Manoj@gmail.com",
+                  "963258",
+                  "Kumar@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "friend@gmail.com",
+                  "741852",
+                  "MNBV@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92496000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "To create new password using new password text box",
+            "match": {
+              "location": "FBregistration.to_create_new_password_using_new_password_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "To close the chrome browser",
+            "match": {
+              "location": "FBregistration.to_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the account creation of fb applicatiom",
+    "description": "",
+    "id": "to-validate-the-account-creation-of-fb-applicatiom",
+    "keyword": "Feature",
+    "uri": "src/test/resources/fbregistation.feature",
+    "tags": []
+  }
+]
